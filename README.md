@@ -33,6 +33,30 @@ NetPulse India introduces a **data-driven, participatory approach** to monitorin
 
 ---
 
+## 🧩 Project Architecture
+```
+NetPulse-India/ 
+│
+├── backend/                # Express + MongoDB API Server 
+│   ├── config/             # MongoDB connection 
+│   ├── controllers/        # Business logic (event + voice) 
+│   ├── models/             # Mongoose schemas 
+│   ├── routes/             # API routes (events, voices) 
+│   ├── utils/              # Helper utilities (impact, geoMap, etc.) 
+│   ├── server.js           # Entry point (with Socket.IO) 
+│   └── .env                # Environment variables (Mongo URI, Port) 
+│── frontend/               # React Frontend (Vite) 
+│   ├── public/             # Static assets (about-hero.jpg) 
+│   ├── src/ 
+│   │   ├── api/            # Axios API + Socket.IO client 
+│   │   ├── components/     # UI Components (MapView, DataTable, etc.) 
+│   │   ├── pages/          # Pages (Home, About, Analytics, Voices) 
+│   │   └── main.jsx        # React entry point 
+│   └── package.json 
+│ └── README.md
+```
+---
+
 ## 🧠 Key Innovations
 
 | Feature | Description |
