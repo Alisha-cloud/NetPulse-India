@@ -2,7 +2,7 @@ import axios from "axios";
 
 //  Base API instance
 const API = axios.create({
-  baseURL: "https://netpulse-indiaba.onrender.com", 
+  baseURL: "http://localhost:8080/api", 
 });
 
 //Events

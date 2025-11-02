@@ -1,7 +1,7 @@
 import { io } from "socket.io-client";
 
 // If backend and frontend run locally
-const SOCKET_URL = "https://netpulse-indiaba.onrender.com";
+const SOCKET_URL = "http://localhost:8080";
 
 // Create socket connection
 const socket = io(SOCKET_URL, {
