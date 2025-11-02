@@ -1,0 +1,20 @@
+export const geoMap = {
+  "Maharashtra": { lat: 19.7515, lon: 75.7139 },
+  "Rajasthan": { lat: 27.0238, lon: 74.2179 },
+  "Kerala": { lat: 10.8505, lon: 76.2711 },
+  "Gujarat": { lat: 22.2587, lon: 71.1924 },
+  "Delhi": { lat: 28.6139, lon: 77.2090 },
+  "Uttar Pradesh": { lat: 26.8467, lon: 80.9462 },
+  "Madhya Pradesh": { lat: 23.4733, lon: 77.9470 },
+  "Bihar": { lat: 25.0961, lon: 85.3131 },
+  "Punjab": { lat: 31.1471, lon: 75.3412 },
+  "Tamil Nadu": { lat: 11.1271, lon: 78.6569 },
+  "West Bengal": { lat: 22.9868, lon: 87.8550 },
+  "Karnataka": { lat: 15.3173, lon: 75.7139 },
+  "Telangana": { lat: 17.1232, lon: 79.2088 },
+  "Haryana": { lat: 29.0588, lon: 76.0856 },
+  "Assam": { lat: 26.2006, lon: 92.9376 },
+  "Odisha": { lat: 20.9517, lon: 85.0985 },
+  "Jammu and Kashmir": { lat: 33.7782, lon: 76.5762 },
+  "Ladakh": { lat: 34.1526, lon: 77.5770 }
+};
